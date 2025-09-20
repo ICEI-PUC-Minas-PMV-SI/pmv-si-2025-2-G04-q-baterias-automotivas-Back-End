@@ -3,7 +3,7 @@ name: CI/CD - Baterias24hrs
 on:
   push:
     branches:
-      - main   # dispara quando houver push na branch main
+      - master
 
 jobs:
   build-deploy:
