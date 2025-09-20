@@ -29,7 +29,7 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "target/baterias24hrs-0.0.1-SNAPSHOT.jar"
-          target: "/opt/baterias24hrs/baterias24hrs.jar"
+          target: "/opt/baterias24hrs/"
 
       - name: Reiniciar serviço no servidor
         uses: appleboy/ssh-action@v1.2.0
